@@ -1,16 +1,16 @@
 # Intro
 
-    ```
-    $ git commit
-    $ git commit
-    ```
+  ```
+  $ git commit
+  $ git commit
+  ```
 
 # Branches
 
-    ```
-    $ git branch bugFix
-    $ git checkout bugFix
-    ```
+  ```
+  $ git branch bugFix
+  $ git checkout bugFix
+  ```
 
 # Merging
 
@@ -25,13 +25,15 @@
   - [x] Сделай ещё один коммит
   - [x] Слей ветку bugFix с веткой master при помощи git merge
 
-    ```
-    $ git checkout -b bugFix
-    $ git commit
-    $ git checkout master
-    $ git commit
-    $ git merge bugFix
-    ```
+Решение:
+
+  ```
+  $ git checkout -b bugFix
+  $ git commit
+  $ git checkout master
+  $ git commit
+  $ git merge bugFix
+  ```
 
 # Rebasing
 
@@ -44,12 +46,14 @@
   - [x] Вернись на master и сделай коммит ещё раз
   - [x] Переключись на bugFix и сделай rebase на master
 
-    ```
-    $ git checkout -b bugFix
-    $ git commit
-    $ git checkout master
-    $ git commit
-    $ git checkout bugFix
-    $ git rebase master
-    ```
+Решение:
+
+  ```
+  $ git checkout -b bugFix
+  $ git commit
+  $ git checkout master
+  $ git commit
+  $ git checkout bugFix
+  $ git rebase master
+  ```
 
